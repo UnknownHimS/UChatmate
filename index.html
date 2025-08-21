@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UChatmate - Anonymous Chatmates</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>UChatmate</h1>
+    <p>Find an anonymous chatmate based on your interest</p>
+  </header>
+
+  <main class="chatmate-list">
+    <div class="chatmate-card">
+      <p><strong>Description:</strong> Business Talks · Female · 25 Years Old</p>
+      <button onclick="startChat('Business Talks')">Start</button>
+    </div>
+
+    <div class="chatmate-card">
+      <p><strong>Description:</strong> Religious Discussion · Male · 30 Years Old</p>
+      <button onclick="startChat('Religious Discussion')">Start</button>
+    </div>
+
+    <div class="chatmate-card">
+      <p><strong>Description:</strong> Casual Chat · Female · 22 Years Old</p>
+      <button onclick="startChat('Casual Chat')">Start</button>
+    </div>
+  </main>
+
+  <script>
+    function startChat(topic) {
+      alert("Starting anonymous chat about: " + topic);
+      // Later you can replace this with your actual chat system or page
+    }
+  </script>
+</body>
+</html>
